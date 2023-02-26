@@ -3,7 +3,7 @@ HI
 
 
 
-This is my landing page1
+This is my landing page!
 
 
 
