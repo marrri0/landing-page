@@ -152,7 +152,7 @@ button {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 650px;
+    gap: 7rem;
 }
 
 .note > p {
