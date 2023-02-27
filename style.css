@@ -45,7 +45,7 @@ ul {
     font-weight: bold;
 }
 
-.header-section button {
+button {
     --text-base: 277deg, 55%, 40%;
     --text-hover: 307deg, 72%, 86%;
     --shadow-start: 52deg, 100%, 72%;
@@ -108,7 +108,6 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
-    /* background-color: #222222; */
 }
 
 .header-subtext-btn {
@@ -157,7 +156,7 @@ ul {
 .artwork-section > p {
     font-size: 10px;
     font-weight: 800;
-    color: rgba(0, 0, 0, 0.404)
+    color: rgba(0, 0, 0, 0.76)
 }
 
 .header {
@@ -257,7 +256,7 @@ ul {
     flex-wrap: wrap;
     border-radius: 15px;  
     padding: 20px 30px;
-    width: 850px;
+    width: 950px;
 }
 
 .centered-box h1 {
@@ -265,10 +264,13 @@ ul {
     padding: 0;
 }
 
+.centered-box a {
+    text-decoration: none;
+}
+
 .deets {
     display: flex;
     flex-direction: column;
-    width: 400px;
 }
 
 .deets p {
@@ -285,7 +287,7 @@ ul {
     box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.404);
     border-radius: 40px;
     padding: 5px 30px;
-    transition: transform 200ms;
+    transition: transform 250ms;
 }
 
 .click-me-btn button:hover {
