@@ -18,6 +18,7 @@ ul {
     color: #fff;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header-section {
@@ -124,6 +125,10 @@ button {
     padding: 0;
 }
 
+span {
+    color: rgb(216, 65, 216);
+}
+
 .profile {
     width: 380px;
     border-radius: 15px;
@@ -200,7 +205,10 @@ button {
 
 .quote-section {
     font-family: serif;
-    background-color: #100014;
+    background: linear-gradient(90deg, rgba(28,0,36,1) 0%, 
+    rgba(50,9,121,1) 49%, 
+    rgba(205,0,255,1) 100%);
+
     color: #fff;
     width: auto;
     display: flex;
@@ -241,7 +249,7 @@ button {
 
 
 .contact-section {
-    background-color: #100014;
+    background: linear-gradient(90deg, rgba(28,0,36,1) 0%, rgba(50,9,121,1) 49%, rgba(205,0,255,1) 100%);
     color: #fff;
     height: 500px;
     display: flex;
@@ -292,7 +300,7 @@ button {
 }
 
 .click-me-btn button:hover {
-    transform: scale(1.1);
+    transform: scale(0.90);
 }
 
 
