@@ -10,14 +10,14 @@ html, body {
 
 ul {
     display: flex;
-    gap: 3rem;
+    gap: 68px;
     list-style: none;
 }
 
 .header-section  a {
     color: #fff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -38,6 +38,11 @@ ul {
     margin-bottom: 100px;
     position: sticky;
     top: 0px;
+}
+
+.logo-and-links a:hover {
+    text-decoration:underline;
+    color: rgb(216, 65, 216);
 }
 
 .para {
