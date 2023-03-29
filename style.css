@@ -43,6 +43,7 @@ ul {
 .logo-and-links a:hover {
     text-decoration:underline;
     color: rgb(216, 65, 216);
+    transition: .4s ease;
 }
 
 .para {
